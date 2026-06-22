@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ハングルメイト サポート</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #0f172a;
+        --muted: #526173;
+        --line: #d7dee8;
+        --panel: #ffffff;
+        --bg: #eef2f6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+        line-height: 1.8;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+
+      header,
+      section {
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        background: var(--panel);
+        padding: 24px;
+        box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+      }
+
+      section {
+        margin-top: 16px;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+        line-height: 1.35;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p,
+      li,
+      a,
+      code {
+        font-size: 15px;
+      }
+
+      p {
+        margin: 12px 0 0;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 1.2em;
+      }
+
+      a {
+        color: var(--ink);
+        font-weight: 800;
+      }
+
+      code {
+        display: block;
+        overflow-wrap: anywhere;
+        border-radius: 14px;
+        background: #f3f6fa;
+        padding: 12px;
+        color: #1e293b;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        line-height: 1.6;
+      }
+
+      .muted {
+        color: var(--muted);
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>ハングルメイト サポート</h1>
+        <p class="muted">
+          ハングルメイトの問い合わせ、プライバシーポリシー、広告配信情報をまとめた公式サポートページです。
+        </p>
+      </header>
+
+      <section>
+        <h2>お問い合わせ</h2>
+        <p>不具合、購入の復元、音声再生、広告表示、その他のご質問は以下のメールアドレスまでご連絡ください。</p>
+        <p><a href="mailto:support@hangulmate.app">support@hangulmate.app</a></p>
+      </section>
+
+      <section>
+        <h2>広告配信について</h2>
+        <p>
+          ハングルメイトでは、無料ユーザー向けにGoogle AdMobによる広告を表示する場合があります。
+          Premiumプランではアプリ内広告が非表示になります。
+        </p>
+        <p>広告販売者情報は以下のapp-ads.txtで公開しています。</p>
+        <p><a href="./app-ads.txt">app-ads.txtを開く</a></p>
+        <code>google.com, pub-4900271516090128, DIRECT, f08c47fec0942fa0</code>
+      </section>
+
+      <section>
+        <h2>よくある質問</h2>
+        <ul>
+          <li>音声が鳴らない場合は、端末の音量、マナーモード、通信状態をご確認ください。</li>
+          <li>購入済みのプランが反映されない場合は、マイページの「購入を復元」をお試しください。</li>
+          <li>サブスクリプションの解約や更新状況は、App Storeの契約管理画面から確認できます。</li>
+          <li>学習記録は端末内とiCloudに保存され、同じApple IDのiCloudから復元できる場合があります。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>プライバシーポリシー</h2>
+        <p><a href="./privacy.html">プライバシーポリシーはこちら</a></p>
+      </section>
+    </main>
+  </body>
+</html>
